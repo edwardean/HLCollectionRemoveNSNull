@@ -35,7 +35,7 @@
     
     NSLog(@"null object: %@", jsonObject);
     NSDictionary *removeNullObject = [jsonObject HLRemoveNullKeyValues];
-    NSLog(@"removeNullObject object: %@", jsonObject);
+    NSLog(@"removeNullObject object: %@", removeNullObject);
 }
 
 
